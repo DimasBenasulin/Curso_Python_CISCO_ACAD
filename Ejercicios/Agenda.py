@@ -57,3 +57,6 @@ while (operacion != 5):
         print("Have a nice day :-)")
         operacion = 5
 
+# print(agenda.get('Horacio', 'No existe en la agenda'))
+# mylista = agenda.items()
+# print(list(mylista)[1][1])
