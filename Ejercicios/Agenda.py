@@ -21,15 +21,16 @@ while (operacion != 5):
 
     # Añadir o Modificar
     if operacion == 1:
-        print("En construcción...")
-
+        nombre = input("Ingrese nuevo Nombre a la agenda: ")
+        tel = input("Ingrese número de telefono: ")
+        agenda[nombre] = int(tel)
 
         operacion = int(input("Ingrese operación a realizar: "))
         # Buscar
     elif operacion == 2:
-        print("En construcción...")
-
-
+        nombre= input("INGRESE NOMBRE:")
+        print(agenda.get(nombre, 'No esta en la agenda'))
+        
         operacion = int(input("Ingrese operación a realizar: "))
         # Borrar
     elif operacion == 3:
