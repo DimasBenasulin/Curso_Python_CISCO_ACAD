@@ -23,7 +23,7 @@ while (operacion != 5):
     if operacion == 1:
         print("En construcción...")
 
-        
+
         operacion = int(input("Ingrese operación a realizar: "))
         # Buscar
     elif operacion == 2:
@@ -48,7 +48,9 @@ while (operacion != 5):
         operacion = int(input("Ingrese operación a realizar: "))
         # Listar
     elif operacion == 4:
-        print(agenda)
+        for x,y in sorted(agenda.items()):
+            print(x,y)
+
         operacion = int(input("Ingrese operación a realizar: "))
     else:
         print("Have a nice day :-)")
