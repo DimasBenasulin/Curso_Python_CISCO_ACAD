@@ -21,17 +21,42 @@ while (operacion != 5):
 
     # Añadir o Modificar
     if operacion == 1:
-        print("En construcción...")
+        nombre = input("Ingrese nuevo Nombre a la agenda: ")
+        tel = input("Ingrese número de telefono: ")
+        agenda[nombre] = int(tel)
+
+        operacion = int(input("Ingrese operación a realizar: "))
         # Buscar
     elif operacion == 2:
-        print("En construcción...")
+        nombre= input("INGRESE NOMBRE:")
+        print(agenda.get(nombre, 'No esta en la agenda'))
+        
+        operacion = int(input("Ingrese operación a realizar: "))
         # Borrar
     elif operacion == 3:
-        print("En construcción...")
+        print("Ingrese Nombre a borrar: \n")
+
+        nombre = input("Ingrese Nombre: ")
+
+        if agenda.get(nombre):
+            if input("Desea Borrar el registro seleccionado? [S/N]") == 'S':
+                del agenda[nombre]
+                print("Registro borrado")
+            else:
+                print("No se ha borrado el registro") 
+        else:
+            print("No Existe el nombre ingresado")
+        operacion = int(input("Ingrese operación a realizar: "))
         # Listar
     elif operacion == 4:
-        print("En construcción...")
+        for x,y in sorted(agenda.items()):
+            print(x,y)
+
         operacion = int(input("Ingrese operación a realizar: "))
     else:
         print("Have a nice day :-)")
         operacion = 5
+
+# print(agenda.get('Horacio', 'No existe en la agenda'))
+# mylista = agenda.items()
+# print(list(mylista)[1][1])
