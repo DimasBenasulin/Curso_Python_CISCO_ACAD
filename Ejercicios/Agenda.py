@@ -1,0 +1,37 @@
+print("--- Agenda en Python 2021 ---")
+print("-----------------------------")
+print("\n")
+print("-----------------------------")
+print("1. Añadir/Modificar          ")
+print("2. Buscar                    ")
+print("3. Borrar                    ")
+print("4. Listar                    ")
+print("5. Salir                     ")
+print("-----------------------------")
+print("\n")
+
+agenda = {'Eliseo': 3513781703, 'Rodrigo': 3541653441, 'Joaquin': 3513022346, 'Horacio': 3512585678, 'Pablo': 3516580942, 'Milton': 3512436454, "Romina": 3516665318, "Milton": 3512436454, "Muriel": 3517617402, 'Exequiel': 3515577124, "Matías": 3512268934, 'Martin': 3512520687
+          }
+
+operacion = int(input("Ingrese operación a realizar: "))
+
+resultado = 0
+
+while (operacion != 5):
+
+    # Añadir o Modificar
+    if operacion == 1:
+        print("En construcción...")
+        # Buscar
+    elif operacion == 2:
+        print("En construcción...")
+        # Borrar
+    elif operacion == 3:
+        print("En construcción...")
+        # Listar
+    elif operacion == 4:
+        print("En construcción...")
+        operacion = int(input("Ingrese operación a realizar: "))
+    else:
+        print("Have a nice day :-)")
+        operacion = 5
