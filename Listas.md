@@ -24,13 +24,13 @@
 - ### Método append() : Instera un elemento al final de la lista
 
 ``` python 
-    mi_lista.append(6) 
+    mi_lista.append(7) 
 ```
 
 - ### Método insert() : Insterna un elemento en una posición especifica dentro de la lista
 
 ``` python 
-    mi_lista.append(6) 
+    mi_lista.append(7) 
 ```
 
 - ### Método sort() : Ordena una lista 
