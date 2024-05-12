@@ -27,7 +27,7 @@
     mi_lista.append(7) 
 ```
 
-- ### Método insert() : Insterna un elemento en una posición especifica dentro de la lista
+- ### Método insert() : Inserta un elemento en una posición especifica dentro de la lista
 
 ``` python 
     mi_lista.append(7) 
