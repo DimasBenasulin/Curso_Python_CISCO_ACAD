@@ -85,3 +85,43 @@ else:
 ```
  
 > Ventajas : Los operadores `in` y `not in` proporcionan una forma simple y legible de verificar la existencia de elementos en una lista, lo que hace que el código sea más claro y conciso.
+
+## Comprensión de Listas en Python
+
+La comprensión de listas es una característica poderosa en Python que permite crear listas de manera concisa y elegante utilizando una sintaxis compacta. Permite definir y construir listas utilizando una única línea de código, lo que puede hacer que tu código sea más legible y eficiente.
+
+### Sintaxis Básica
+
+La sintaxis básica de la comprensión de listas es:
+
+```python
+nueva_lista = [expresion for elemento in iterable]
+```
+Esto crea una nueva lista `nueva_lista` donde cada elemento se obtiene aplicando la expresión a cada elemento del iterable.
+
+#### Ejemplo de Comprensión de Listas
+```python
+# Crear una lista de cuadrados de números del 0 al 9
+cuadrados = [x ** 2 for x in range(10)]
+print(cuadrados)  # Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+```
+### Uso de Condiciones
+
+También es posible agregar condiciones a la comprensión de listas para filtrar los elementos del iterable.
+```python
+# Crear una lista de números pares del 0 al 9
+pares = [x for x in range(10) if x % 2 == 0]
+print(pares)  # Output: [0, 2, 4, 6, 8]
+```
+
+### Comprensión de Listas Anidadas
+La comprensión de listas también puede ser anidada, lo que significa que puedes tener una comprensión de listas dentro de otra.
+
+```python
+# Crear una matriz 3x3 inicializada con ceros
+matriz = [[0 for _ in range(3)] for _ in range(3)]
+print(matriz)  # Output: [[0, 0, 0], [0, 0, 0], [0, 0, 0]]
+```
+
+> La comprensión de listas es una técnica poderosa y elegante en Python para crear listas de manera eficiente y legible. Es una herramienta importante en el arsenal de cualquier programador de Python y puede ayudarte a escribir código más claro y conciso.
+
