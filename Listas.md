@@ -4,13 +4,13 @@
 
 ### Creación de una lista
 ```python
-    mi_lista = [1, 2, 3, 4, 5] 
+mi_lista = [1, 2, 3, 4, 5] 
 ```
 
 ### Acceso a elementos de una lista
 ```python
-    primer_elemento = mi_lista[0] # Accede al primer elemento
-    ultimo_elemento = mi_lista[-1] # Accede al último elemento
+primer_elemento = mi_lista[0] # Accede al primer elemento
+ultimo_elemento = mi_lista[-1] # Accede al último elemento
 ```
 
 ### Recorrer elementos de una lista mediante un `for`
@@ -21,8 +21,8 @@ for idx in range(len(mi_lista)):
 
 ### Concatenación de listas
 ```python
-    otra_lista = [6, 7, 8]
-    lista_concatenada = mi_lista + otra_lista
+otra_lista = [6, 7, 8]
+lista_concatenada = mi_lista + otra_lista
 ```
 
 ## Métodos de Listas
@@ -30,23 +30,23 @@ for idx in range(len(mi_lista)):
 - ### Método append() : Instera un elemento al final de la lista
 
 ``` python 
-    mi_lista.append(7) 
+mi_lista.append(7) 
 ```
 
 - ### Método insert() : Inserta un elemento en una posición especifica dentro de la lista
 
 ``` python 
-    mi_lista.append(7) 
+mi_lista.append(7) 
 ```
 
 - ### Método sort() : Ordena una lista 
 ``` python
-    mi_lista.sort()
+mi_lista.sort()
 ```
 
 - ### Método reverse() : invierte la ubicación de los elementos 
 ``` python
-    mi_lista.reverse()
+mi_lista.reverse()
 ```
 
 ## Operadores `in` y `not in`
