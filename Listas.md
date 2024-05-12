@@ -13,6 +13,12 @@
     ultimo_elemento = mi_lista[-1] # Accede al último elemento
 ```
 
+### Recorrer elementos de una lista mediante un `for`
+```python
+for idx in range(len(mi_lista)):
+    print(mi_lista[idx])
+```
+
 ### Concatenación de listas
 ```python
     otra_lista = [6, 7, 8]
