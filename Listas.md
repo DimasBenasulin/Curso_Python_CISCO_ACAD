@@ -43,11 +43,11 @@
     mi_lista.reverse()
 ```
 
-# Operadores `in` y `not in`
+## Operadores `in` y `not in`
 
 Los operadores `in` y `not in` son utilizados en Python para comprobar si un valor está presente o no en una lista. Estos operadores son extremadamente útiles para la búsqueda de elementos dentro de una lista.
 
-## Operador `in`
+### Operador `in`
 
 El operador `in` devuelve `True` si un valor está presente en la lista y `False` si no lo está.
 
@@ -57,7 +57,7 @@ frutas = ["manzana", "banana", "cereza"]
 print("manzana" in frutas)  # Devuelve True
 print("uva" in frutas)      # Devuelve False
 ``` 
-## Operador `not in`
+### Operador `not in`
 
 El operador not in devuelve True si un valor no está presente en la lista y False si lo está.
 
@@ -67,7 +67,7 @@ frutas = ["manzana", "banana", "cereza"]
 print("uva" not in frutas)      # Devuelve True
 print("manzana" not in frutas)  # Devuelve False
 ```
-## Uso en Condiciones
+### Uso en Condiciones
 
 Estos operadores son comúnmente utilizados en expresiones condicionales para verificar la presencia o ausencia de elementos en una lista.
 
