@@ -57,7 +57,7 @@ print(elevar_al_cuadrado(5, 3))
 
 #### *args (Argumentos Posicionales)
 
-'''python
+```python
 def nombre_funcion(*args):
     # Cuerpo de la función
     for arg in args:
