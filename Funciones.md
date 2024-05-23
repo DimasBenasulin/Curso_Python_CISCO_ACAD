@@ -64,6 +64,7 @@ def nombre_funcion(*args):
         print(arg)
 ```
 ### Ejemplo
+```python
 def imprimir_numeros(*numeros):
     for numero in numeros:
         print(numero)
