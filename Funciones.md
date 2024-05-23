@@ -91,7 +91,7 @@ def imprimir_info(**info):
     for clave, valor in info.items():
         print(f"{clave}: {valor}")
 
-imprimir_info(nombre="Juan", edad=30, ciudad="Madrid")
+imprimir_info(nombre="Juan", edad=30, ciudad="Córdoba")
 # Salida:
 # nombre: Juan
 # edad: 30
