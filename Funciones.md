@@ -55,7 +55,7 @@ print(elevar_al_cuadrado(5, 3))
 
 ## Funciones con un Número Arbitrario de Argumentos
 
-*args (Argumentos Posicionales)
+#### *args (Argumentos Posicionales)
 
 '''python
 def nombre_funcion(*args):
@@ -75,7 +75,7 @@ imprimir_numeros(1, 2, 3, 4)
 # 3
 # 4
 ``` 
-**kwargs (Argumentos con Nombre)
+#### **kwargs (Argumentos con Nombre)
 
 ```python
 def nombre_funcion(**kwargs):
@@ -108,6 +108,48 @@ nombre_funcion = lambda parametros: expresión
 sumar = lambda a, b: a + b
 print(sumar(5, 7))
 # Salida: 12
+```
+
+## Documentación de Funciones (Docstrings)
+```python
+def nombre_funcion():
+    """
+    Descripción de la función.
+    """
+    # Cuerpo de la función
+```
+### Ejemplo
+```python
+def saludar():
+    """
+    Esta función imprime un saludo.
+    """
+    print("¡Hola a todos!")
+
+# Para acceder a la documentación:
+print(saludar.__doc__)
+# Salida: Esta función imprime un saludo.
+```
+## Funciones Recursivas
+```python
+def nombre_funcion(parametro):
+    # Condición base
+    if condicion:
+        return resultado_base
+    else:
+        return nombre_funcion(nueva_condicion)
+'''
+
+### Ejemplo
+```python
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+print(factorial(5))
+# Salida: 120
 ```
 
 ## Funciones como Objetos de Primera Clase
