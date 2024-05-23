@@ -139,7 +139,7 @@ def nombre_funcion(parametro):
         return resultado_base
     else:
         return nombre_funcion(nueva_condicion)
-'''
+```
 
 ### Ejemplo
 ```python
@@ -216,7 +216,7 @@ print(calcular('dividir', 20, 4, 2))
 # Salida: 2.5
 print(calcular('dividir', 20, 0, 2))
 # Salida: Error: División por cero.
-'''
+``` 
 
 
 
